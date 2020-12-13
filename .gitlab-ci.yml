@@ -1,0 +1,8 @@
+stages:
+  - build
+  - test
+
+  minifyjs:
+    stage: build
+  script:
+    - yarn build
